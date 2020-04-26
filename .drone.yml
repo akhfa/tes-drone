@@ -9,3 +9,7 @@ steps:
   commands:
   - echo apapun
   - sleep 10
+
+trigger:
+  event:
+  - pull_request
